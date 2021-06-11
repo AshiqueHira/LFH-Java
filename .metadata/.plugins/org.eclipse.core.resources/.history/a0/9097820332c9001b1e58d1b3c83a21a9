@@ -1,0 +1,56 @@
+
+public class HelloWorld {
+	
+	public static void main(String[] args) {
+		//System.out.println("Hello ashique");
+		
+		
+		
+		int a = 10;
+		int b = 20;
+		
+		float d = 3.2f;
+		
+		float e = a+d;
+		
+		
+		
+		System.out.println(e);
+		
+		
+		
+		System.out.println(a+b);
+		
+		
+		
+		
+		boolean value = true;
+		
+		if(value) {
+			System.out.println("this line printed");
+		}else {
+			System.out.println("else line printed");
+		}
+		
+		myMethod();
+		
+		myMethod(5);
+
+	}
+	
+	public static void myMethod() {
+		System.out.println("Hello world");
+		System.out.println("Hello there");
+		System.out.println("Hello hi");
+		System.out.println("Hello");
+	}
+	
+	public static void myMethod(int a) {
+		System.out.println("The number is "+ a);
+	}
+	public static void myMethod(int a, int b) {
+		
+		
+		System.out.println("The sum is ");
+	}
+}

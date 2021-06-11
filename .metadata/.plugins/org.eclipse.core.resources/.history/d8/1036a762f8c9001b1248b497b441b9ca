@@ -1,0 +1,22 @@
+import javax.swing.plaf.basic.BasicInternalFrameTitlePane.SystemMenuBar;
+
+public class TaskSum {
+
+	public static void main(String[] args) {
+		
+		
+		// Task sum :- 10/6/2021
+		// write a method in the name of 'sum'
+		// it should have two parameters both are of type int
+		// and it should print the sum of that two integers
+		
+		
+		
+	}
+	
+	public void sum(int a, int b) {
+		int c = a+b;
+		System.out.println("The answer is "+ c);
+	}
+
+}

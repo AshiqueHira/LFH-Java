@@ -1,0 +1,38 @@
+
+public class JavaMethods {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+
+		
+		myMethod();
+	}
+	
+	
+	public static void myMethod() {
+		//System.out.println("first method");
+		
+		int j = myReturnMethod(20, 2);
+		System.out.println(j);
+	}
+	
+	public static void myMethod(int a) {
+		System.out.println("first method "+ a);
+	}
+	
+	public static int myReturnMethod(int g , int h) {
+		int sum = g+h;
+		
+		//myMethod();
+		
+		return sum;
+		
+		
+		
+	}
+
+	
+	
+
+}

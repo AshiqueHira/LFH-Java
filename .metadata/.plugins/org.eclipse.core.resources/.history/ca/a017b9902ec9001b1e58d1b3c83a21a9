@@ -1,0 +1,17 @@
+
+public class HelloWorld {
+	
+	public static void main(String[] args) {
+		//System.out.println("Hello ashique");
+		
+		
+		boolean value = false;
+		
+		if(value) {
+			System.out.println("this line printed");
+		}else {
+			System.out.println("else line printed");
+		}
+		System.out.println("Hello world");
+	}
+}

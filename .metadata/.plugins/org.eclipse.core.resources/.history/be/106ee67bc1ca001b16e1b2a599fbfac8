@@ -1,0 +1,21 @@
+
+public class ifElse {
+
+	public static void main(String[] args) {
+		
+		int a = 3;
+		
+		if(a==0) {
+			System.out.println("a is zero");
+		}else if(a==1){
+			System.out.println("a is one");
+		}else if(a==2){
+			System.out.println("a is two");
+		}else if(a==3){
+			System.out.println("a is three");
+		}else {
+			System.out.println("a is some other");
+		}
+	}
+
+}
